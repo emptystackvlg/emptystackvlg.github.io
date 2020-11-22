@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html  >
+<head>
+  <!-- Site made with Mobirise Website Builder v4.12.4, https://mobirise.com -->
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Mobirise v4.12.4, mobirise.com">
+  <meta name="twitter:card" content="summary_large_image"/>
+  <meta name="twitter:image:src" content="assets/images/page3-meta.png">
+  <meta property="og:image" content="assets/images/page3-meta.png">
+  <meta name="twitter:title" content="Плавное управление яркостью">
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+  <link rel="shortcut icon" href="assets/images/icons8-code-100-1.png" type="image/x-icon">
+  <meta name="description" content="Туториал по управленю яркостью светодиодов на Arduino">
+  
+  
+  <title>Плавное управление яркостью</title>
+  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-grid.min.css">
+  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-reboot.min.css">
+  <link rel="stylesheet" href="assets/tether/tether.min.css">
+  <link rel="stylesheet" href="assets/theme/css/style.css">
+  <link rel="preload" as="style" href="assets/mobirise/css/mbr-additional.css"><link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css" type="text/css">
+  
+  
+  
+</head>
+<body>
+  <section class="header1 cid-s8dJocCMf0" id="header16-1e">
+
+    
+
+    
+
+    <div class="container">
+        <div class="row justify-content-md-center">
+            <div class="col-md-10 align-center">
+                
+                
+                
+                <div class="mbr-section-btn"><a class="btn btn-md btn-black-outline display-4" href="index.html">На главную</a></div>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+<section class="engine"><a href="https://mobirise.info/m">free web design templates</a></section><section class="mbr-section content6 cid-s8drvV1Td8" id="content6-18">
+    
+     
+    
+    <div class="container">
+        <div class="media-container-row">
+            <div class="col-12 col-md-8">
+                <div class="media-container-row">
+                    <div class="mbr-figure" style="width: 110%;">
+                      <a href="assets/files/my.pdf"><img src="assets/images/arduino-uno-r3.jpg" alt="Mobirise" title=""></a>  
+                    </div>
+                    <div class="media-content">
+                        <div class="mbr-section-text">
+                            <p class="mbr-text mb-0 mbr-fonts-style display-5"><strong>Немного теории :</strong><br><br>Arduino UNO имеет<br><strong><em> 14 цифровых </em></strong>входов\выходов &nbsp;(6 из которых могут &nbsp;использоваться как выходы &nbsp;<a href="https://ru.wikipedia.org/wiki/%D0%A8%D0%B8%D1%80%D0%BE%D1%82%D0%BD%D0%BE-%D0%B8%D0%BC%D0%BF%D1%83%D0%BB%D1%8C%D1%81%D0%BD%D0%B0%D1%8F_%D0%BC%D0%BE%D0%B4%D1%83%D0%BB%D1%8F%D1%86%D0%B8%D1%8F" target="_blank">ШИМ</a> ) , и <strong><em>6 аналоговых</em></strong> выходов .<br><br>Arduino UNO умеет работать как с 5 V , так и с 3.3 V логикой .<br><br></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="mbr-section article content1 cid-s8dpBlbO8q" id="content1-17">
+    
+     
+
+    <div class="container">
+        <div class="media-container-row">
+            <div class="mbr-text col-12 mbr-fonts-style display-5 col-md-12"><p><strong>Что понадобится :</strong></p><p>1 ) плата семейства Arduino ( UNO или любая другая )</p><p><br></p><p>2 ) 5 резисторов на 220 Ом</p><p><br></p><p>3 ) 5 &nbsp;одноцветных светодидов</p><p><br></p><p>4 ) макетная плата</p><p><br></p><p>5 ) 11 джамперов (проводов)&nbsp;</p></div>
+        </div>
+    </div>
+</section>
+
+<section class="mbr-section article content1 cid-s8dxVdlNWT" id="content1-1a">
+    
+     
+
+    <div class="container">
+        <div class="media-container-row">
+            <div class="mbr-text col-12 mbr-fonts-style display-5 col-md-12"><p><strong>Итак , начнем :</strong></p><p><br></p><p>Чтобы подключить светодиод к Arduino - нужно на макетной плате воткнуть светодиод <em><strong>анодом (длинный вывод )</strong></em> к резистру на 220 Ом ( полярность резистора не важна) , а <strong><em>катодом ( короткий вывод</em> )</strong> к земле , как показанно на схеме ниже .</p><p>Затем подключить джампером ( проводом ) один из пинов <em><strong>GND</strong></em> на Arduino к горизонтальной шине на макетной плате <em><strong>со знаком " - "</strong></em> , она называется шина заземления</p><p><em><strong>Катод</strong></em> светодиода подключить джампером ( проводом ) к шине заземления , а <strong><em>анод</em></strong> в цифровой порт на Arduino <em><strong>со знаком " ~ "</strong></em> , пины с этим знаком имеют поддержку <em><strong>ШИМ </strong></em>.</p><p><br></p></div>
+        </div>
+    </div>
+</section>
+
+<section class="cid-s8dDbzhndR" id="image2-1c">
+
+    
+
+    <figure class="mbr-figure container">
+        <div class="image-block" style="width: 79%;">
+            <img src="assets/images/pwm.png" alt="Mobirise" title="">
+            
+        </div>
+    </figure>
+</section>
+
+<section class="mbr-section article content1 cid-s8dE2Gq1JH" id="content1-1d">
+    
+     
+
+    <div class="container">
+        <div class="media-container-row">
+            <div class="mbr-text col-12 mbr-fonts-style display-5 col-md-12"><p>Теперь нужно <strong>загрузить прошивку в Arduino . </strong>Это делается довольно легко через среду разработки <a href="https://www.arduino.cc/en/Main/Software" target="_blank">Arduino IDE</a>&nbsp;.</p><p>После скачивания и установки Arduino IDE &nbsp;и драйверов подключите плату Arduino &nbsp;к компьютеру .</p><p>Теперь нужно во вкладке <em><strong>" Инструменты &nbsp;&gt; &nbsp;Платы "</strong></em> выбрать Вашу модель Arduino , затем во вкладке <strong><em>"Инструменты &nbsp;&gt; &nbsp;Порт "</em></strong> выбрать <a href="https://ru.wikipedia.org/wiki/%D0%9F%D0%BE%D1%81%D0%BB%D0%B5%D0%B4%D0%BE%D0%B2%D0%B0%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9_%D0%BF%D0%BE%D1%80%D1%82" target="_blank">COM порт</a> , к которому подключена Arduino . Узнать порт можно через <em><strong>" Диспетчер устройств Windows "</strong></em> во вкладке <strong><em>" Порты "</em></strong>.</p><p>После удачного подключения и настройки платы Arduino , нужно &nbsp;<em><strong><a href="https://github.com/SoskaVLG/Arduino-projects/blob/master/PWM.ino" target="_blank">здесь</a></strong></em> скачать прошивку , и затем открыть её в Arduino IDE . После нажать кнопку " Загрузка " в левом верхнем углу &nbsp;и дождаться когда в консоли вывода внизу появится сообщение <em><strong>" Загрузка завершена "</strong></em>.</p><p><br></p><p>Теперь при подключении питания &nbsp;, светодиоды должны плавно загораться и &nbsp;затем плавно гаснуть .&nbsp;</p></div>
+        </div>
+    </div>
+</section>
+
+
+  <script src="assets/web/assets/jquery/jquery.min.js"></script>
+  <script src="assets/popper/popper.min.js"></script>
+  <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+  <script src="assets/tether/tether.min.js"></script>
+  <script src="assets/smoothscroll/smooth-scroll.js"></script>
+  <script src="assets/theme/js/script.js"></script>
+  
+  
+</body>
+</html>
