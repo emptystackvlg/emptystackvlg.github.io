@@ -1,1 +1,0 @@
-# SoskaVLG.gitnub.io

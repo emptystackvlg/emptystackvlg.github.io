@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "my site",
-    "currentPage": "page3.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -49,7 +49,8 @@
     "uniqCompNum": 51,
     "versionPublish": "5.3.5",
     "screenshot": "screenshot.png",
-    "publishChangesOnly": true
+    "publishChangesOnly": true,
+    "mbrsiteDomain": "rhk9yrdgio"
   },
   "pages": {
     "index.html": {
